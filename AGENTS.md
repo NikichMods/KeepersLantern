@@ -4,7 +4,7 @@ These rules are mandatory for development in this public repository.
 
 ## Global engineering contract
 
-Before substantive changes, consult the current global rules in `666drjekyll666-cloud/DevRules`: `ENGINEERING_RULES.md`, `CI_POLICY.md`, `GIT_WORKFLOW.md`, and `PROJECT_BOOTSTRAP.md`. Repository evidence outranks chat memory.
+Before substantive changes, consult the current global rules in `NikichMods/DevRules`: `ENGINEERING_RULES.md`, `CI_POLICY.md`, `GIT_WORKFLOW.md`, and `PROJECT_BOOTSTRAP.md`. Repository evidence outranks chat memory.
 
 Use the standard flow: **discover -> verify -> implement narrowly -> test -> accept**. Keep research separate from production, preserve exact source/build identity, and do not spend hosted CI on documentation-only or research-only changes.
 
@@ -58,7 +58,7 @@ This repository is public production code. It may contain our source, documentat
 
 Do **not** commit Graveyard Keeper assemblies, extracted copyrighted game assets, decompiled game source, bulk runtime dumps, research archives, temporary probes, or private reverse-engineering material here.
 
-Deep game research belongs in the private `666drjekyll666-cloud/GraveyardKeeperResearch` evidence layer or another explicitly private research location. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
+Deep game research belongs in the private `NikichMods/GraveyardKeeperResearch` evidence layer or another explicitly private research location. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
 
 ## Runtime architecture and performance
 

@@ -4,7 +4,7 @@ This public repository intentionally starts with a **new clean Git history**. Hi
 
 ## Legacy source
 
-- Legacy private repository: `666drjekyll666-cloud/KeepersLantern-legacy-private`
+- Legacy private repository: `NikichMods/KeepersLantern-legacy-private`
 - Accepted release version: `1.0.9`
 - Frozen legacy source ref: `version/1.0.9-test`
 - Exact tested legacy source commit: `1ed29f48c33768d11e7dcf75cf5ea01a234c9369`

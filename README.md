@@ -6,7 +6,7 @@ A lightweight lighting overhaul for **Graveyard Keeper 1.407** built around dark
 
 ## Download
 
-Stable binaries are available from [GitHub Releases](https://github.com/666drjekyll666-cloud/KeepersLantern/releases).
+Stable binaries are available from [GitHub Releases](https://github.com/NikichMods/KeepersLantern/releases).
 
 ## What it changes
 
