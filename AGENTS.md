@@ -58,7 +58,7 @@ This repository is public production code. It may contain our source, documentat
 
 Do **not** commit Graveyard Keeper assemblies, extracted copyrighted game assets, decompiled game source, bulk runtime dumps, research archives, temporary probes, or private reverse-engineering material here.
 
-Deep game research belongs in the shared `NikichMods/GraveyardKeeperResearch` evidence layer or another explicitly private research location. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
+Reusable **derived** deep-game findings belong in the shared `NikichMods/GraveyardKeeperResearch` evidence layer; proprietary payloads, copied assemblies, full decompilation material, or other non-redistributable research data must remain outside public repositories. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
 
 ## Runtime architecture and performance
 
