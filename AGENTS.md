@@ -58,7 +58,7 @@ This repository is public production code. It may contain our source, documentat
 
 Do **not** commit Graveyard Keeper assemblies, extracted copyrighted game assets, decompiled game source, bulk runtime dumps, research archives, temporary probes, or private reverse-engineering material here.
 
-Deep game research belongs in the private `NikichMods/GraveyardKeeperResearch` evidence layer or another explicitly private research location. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
+Deep game research belongs in the shared `NikichMods/GraveyardKeeperResearch` evidence layer or another explicitly private research location. Production must depend on distilled verified facts, public packages, and runtime APIs—not on downloading private research data during CI.
 
 ## Runtime architecture and performance
 
@@ -132,3 +132,17 @@ Standard public CI is permitted when it proves a concrete build/release property
 - frozen accepted baseline refs and CI evidence
 
 When chat history conflicts with accepted repository evidence, investigate before changing code.
+
+## Shared Graveyard Keeper research
+
+Cross-project Graveyard Keeper 1.407 host/runtime research is centralized in `NikichMods/GraveyardKeeperResearch`.
+
+Before starting a fresh investigation into vanilla/game-engine/UI/NGUI/data/lifecycle behavior:
+
+1. read this repository's own canonical verified-data / architecture docs first;
+2. consult `NikichMods/GraveyardKeeperResearch/docs/RESEARCH_INDEX.md` and the linked shared knowledge documents;
+3. search accepted local/shared test evidence and relevant history if the result has not yet been promoted;
+4. perform new static/runtime research or a probe only if the question remains open.
+
+Project-specific mechanics, product/UX decisions, release state, and build acceptance remain canonical in this repository. Reusable host/runtime facts that can serve multiple Graveyard Keeper mods should be promoted back into the shared research repository after acceptance rather than left only in chat, commit history, or a test log.
+
