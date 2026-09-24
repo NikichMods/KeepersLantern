@@ -6,7 +6,7 @@ These rules are mandatory for development in this public repository.
 
 Before substantive changes, consult the current global rules in `NikichMods/DevRules`: `ENGINEERING_RULES.md`, `CI_POLICY.md`, `GIT_WORKFLOW.md`, and `PROJECT_BOOTSTRAP.md`. Repository evidence outranks chat memory.
 
-Use the standard flow: **discover -> verify -> implement narrowly -> test -> accept**. Keep research separate from production, preserve exact source/build identity, and do not spend hosted CI on documentation-only or research-only changes.
+Use the standard flow: **discover -> verify -> implement narrowly -> test -> accept**. Keep research separate from production and preserve exact source/build identity. Documentation/bookkeeping changes do not need hosted CI; research-only code may use CI when compilation, tests, or a runnable artifact materially advance the investigation.
 
 ## Project identity
 
