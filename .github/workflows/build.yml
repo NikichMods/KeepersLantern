@@ -9,13 +9,6 @@ on:
       - 'KeepersLantern.csproj'
       - 'nuget.config'
       - '.github/workflows/build.yml'
-  push:
-    branches: [ main ]
-    paths:
-      - 'src/**'
-      - 'KeepersLantern.csproj'
-      - 'nuget.config'
-      - '.github/workflows/build.yml'
 
 permissions:
   contents: read
