@@ -119,7 +119,7 @@ Before handing a new runtime DLL to the user:
 - the user receives a raw versioned DLL when a file handoff is needed;
 - the required in-game test is concise and specific.
 
-Standard public CI is permitted when it proves a concrete build/release property. Use the established Windows build until a cheaper equivalent runner has been proven. Keep artifact retention short.
+Standard public CI is permitted when it proves a concrete build/release property. Use the established Windows build while it remains the best fit for the verified toolchain; switch runners only for a concrete engineering benefit after equivalence is proven, not to conserve standard public runner minutes. Keep artifact retention short.
 
 ## Long-lived sources of truth
 
